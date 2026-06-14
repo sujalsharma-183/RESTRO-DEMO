@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Aura | Luxury Fine Dining Experience</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="floating-actions">
+        <a href="#reserve" class="float-btn float-reserve" title="Book a Table">
+            <i class="fa-solid fa-utensils"></i>
+        </a>
+        <a href="https://wa.me/910000000000" target="_blank" class="float-btn float-whatsapp" title="Order via WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <header class="navbar">
+        <div class="logo">
+            L'<span class="gold-text">AURA</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-item active">Home</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#menu">Culinary Menu</a></li>
+                <li><a href="#reserve">Reservations</a></li>
+            </ul>
+        </nav>
+        <a href="#reserve" class="btn btn-nav">Book Table</a>
+    </header>
+
+    <section id="home" class="hero" style="background: linear-gradient(rgba(7,7,7,0.55), rgba(7,7,7,0.85)), url('images/hero-restaurant.jpg') no-repeat center center/cover;">
+        <div class="hero-content">
+            <h5 class="subtitle animate-fade">THE ART OF MASTER CHEFS</h5>
+            <h1 class="animate-slide">UNFORGETTABLE <br><span class="gold-text">CRAVINGS</span></h1>
+            <p class="animate-fade delay-1">Indulge in an exquisite culinary journey where classical gastronomy meets modern structural art. Prepared fresh daily using strictly organic heirloom components.</p>
+            <div class="hero-buttons animate-fade delay-2">
+                <a href="#menu" class="btn btn-gold">View Menu <i class="fa-solid fa-arrow-right-long"></i></a>
+                <a href="#reserve" class="btn btn-outline">Reservations</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section scroll-reveal">
+        <div class="container grid-2">
+            <div class="about-text">
+                <h5 class="section-tag gold-text">Welcome to L'Aura</h5>
+                <h2 class="section-title">Where Passion <br>Meets <span class="gold-text">Perfection</span></h2>
+                <p>Founded by culinary visionary master artisans, L'Aura delivers a curated multi-sensory epicurean escape. Every plate honors generational recipes refocused through contemporary culinary aesthetics.</p>
+                <div class="signature-box">
+                    <p class="gold-text signature">Chef de Cuisine</p>
+                    <p class="chef-name">Alessandro Vance</p>
+                </div>
+            </div>
+            <div class="about-img-frame">
+                <img src="images/chef-plating.jpg" alt="Chef precision plating architecture" class="about-img">
+                <div class="experience-badge">
+                    <h3>15+</h3>
+                    <p>Years of Culinary Glory</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section scroll-reveal">
+        <div class="container">
+            <h5 class="section-tag gold-text text-center">Curated Selection</h5>
+            <h2 class="section-title text-center">EXPLORE THE <span class="gold-text">MENU</span></h2>
+            
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-filter="all">All Creations</button>
+                <button class="tab-btn" data-filter="mains">Signature Mains</button>
+                <button class="tab-btn" data-filter="desserts">Artisan Desserts</button>
+            </div>
+
+            <div class="menu-grid">
+                
+                <div class="menu-card menu-item-box" data-category="mains">
+                    <div class="menu-img-wrapper">
+                        <img src="images/dish-steak.jpg" alt="Truffle Wagyu Fillet">
+                        <span class="menu-price">$48</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Truffle Wagyu Fillet</h3>
+                        <p>Aged Japanese A5 Wagyu served alongside wild forest black truffle reduction and fire-seared asparagus spears.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card menu-item-box" data-category="mains">
+                    <div class="menu-img-wrapper">
+                        <img src="images/dish-salmon.jpg" alt="Atlantic Salmon Tartare">
+                        <span class="menu-price">$36</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Glazed Atlantic Salmon</h3>
+                        <p>Pan-crisped organic salmon fillet brushed with yuzu-infused maple glaze over creamy parsnip velvet puree.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card menu-item-box" data-category="desserts">
+                    <div class="menu-img-wrapper">
+                        <img src="images/dish-dessert.jpg" alt="Gold Caviar Chocolate Dome">
+                        <span class="menu-price">$22</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Gold Chocolate Sphere</h3>
+                        <p>70% Belgian dark chocolate dome melted on-table with hot salted caramel lacquer broth.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="reserve" class="reserve-section scroll-reveal" style="background: linear-gradient(rgba(7,7,7,0.85), rgba(7,7,7,0.9)), url('images/restaurant-interior.jpg') no-repeat center center/cover;">
+        <div class="container max-width-sm">
+            <h5 class="section-tag gold-text text-center">Secure Your Table</h5>
+            <h2 class="section-title text-center">MAKE A <span class="gold-text">RESERVATION</span></h2>
+            
+            <form class="reservation-form" onsubmit="event.preventDefault(); alert('Demo Notification: Table Request Transmitted Successfully!');">
+                <div class="form-row grid-2">
+                    <input type="text" placeholder="Your Full Name" required class="form-input">
+                    <input type="tel" placeholder="Phone Number" required class="form-input">
+                </div>
+                <div class="form-row grid-3">
+                    <input type="date" required class="form-input">
+                    <input type="time" required class="form-input">
+                    <select class="form-input" required>
+                        <option value="" disabled selected>Number of Guests</option>
+                        <option value="2">2 Persons</option>
+                        <option value="4">4 Persons</option>
+                        <option value="6">6+ Persons</option>
+                    </select>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-gold">Confirm My Booking Slot</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-block footer-brand">
+                <h3>L'<span class="gold-text">AURA</span></h3>
+                <p>Crafting sophisticated physical culinary narratives that endure within memory long after the final course concludes.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-tripadvisor"></i></a>
+                </div>
+            </div>
+            <div class="footer-block">
+                <h4>Hours of Operation</h4>
+                <p><span class="gold-text">Mon - Fri:</span> 17:00 PM - 23:30 PM</p>
+                <p><span class="gold-text">Sat - Sun:</span> 12:00 PM - 00:00 AM</p>
+            </div>
+            <div class="footer-block">
+                <h4>The Lounge Location</h4>
+                <p><i class="fa-solid fa-location-dot gold-text"></i> Premium Residency Hub, Vijay Nagar, Indore, MP</p>
+                <p><i class="fa-solid fa-phone gold-text"></i> +91 99999 88888</p>
+            </div>
+        </div>
+        <div class="footer-base text-center">
+            <p>&copy; 2026 L'Aura Fine Dining Lounge. Engineered Demo Experience Architecture. All Rights Reserved.</p>
+            <h1 class="gold-text">by: SUJAL SHARMA </h1>
+        </div>
+    </footer>
+
+    <script>
+        // 1. Scroll Reveal Engine Setup
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if(entry.isIntersecting) {
+                    entry.target.classList.add('reveal-active');
+                }
+            });
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll('.scroll-reveal').forEach(section => revealObserver.observe(section));
+
+        // 2. Client Demo Interactive Menu Filter Engine Logic
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        const menuCards = document.querySelectorAll('.menu-item-box');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Toggle state styles class
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                const filterTarget = button.getAttribute('data-filter');
+
+                menuCards.forEach(card => {
+                    // Smooth scaling animation transition logic during filtering shifts
+                    card.style.transform = 'scale(0.8)';
+                    card.style.opacity = '0';
+                    
+                    setTimeout(() => {
+                        if(filterTarget === 'all' || card.getAttribute('data-category') === filterTarget) {
+                            card.style.display = 'block';
+                            setTimeout(() => {
+                                card.style.transform = 'scale(1)';
+                                card.style.opacity = '1';
+                            }, 50);
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    }, 300);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
