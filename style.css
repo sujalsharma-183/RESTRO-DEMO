@@ -147,7 +147,7 @@ p {
     position: relative;
     height: 100vh;
     /* Looks explicitly inside your newly made images folder */
-    background-image: url('images/hero-bg.jpg'); 
+    background-image: url('images/hero-bg.jpeg'); 
     background-size: cover;
     background-position: center;
     display: flex;
